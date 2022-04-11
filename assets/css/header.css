@@ -66,8 +66,9 @@
     transition: all 0.2s;
 }
 
-.header__login-button:active{
-    background: #b7d1f3;
+.header__login-button:hover{
+    background: #ccdff8;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {

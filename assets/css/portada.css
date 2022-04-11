@@ -32,7 +32,8 @@
     padding: 1.25rem 2rem;
     transition: all .2s;
 }
-.portada__boton:active{
+.portada__boton:hover{
+    cursor: pointer;
     background: #619ff1;
 }
 
