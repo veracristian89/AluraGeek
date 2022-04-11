@@ -16,6 +16,7 @@
     font-weight: 700;
     font-size: 4rem;
     padding-bottom: 1.5rem;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 .portada__descripcion{
@@ -23,6 +24,7 @@
     font-weight: 700;
     font-size: 1.25rem;
     padding-bottom: 1rem;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 .portada__boton{
     background: #2A7AE4;
@@ -32,4 +34,12 @@
 }
 .portada__boton:active{
     background: #619ff1;
+}
+
+@media screen and (max-width: 1024px) {
+    .portada__contenido{
+        padding: 15rem 0 0 2rem;
+    
+    }
+   
 }

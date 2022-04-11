@@ -33,7 +33,7 @@
 .header__search-input{
     font-size: .85rem;
     padding: 0.35rem 0.35rem;
-    width: 10vw;
+    width: 15vw;
     background: transparent;
     outline: none;
     border: none;
@@ -68,4 +68,16 @@
 
 .header__login-button:active{
     background: #b7d1f3;
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        padding: 1rem 2rem;
+    
+    }
+    .header__logo{
+        transform: scale(0.8);
+        margin-right: .5rem;
+    }
+    
 }
