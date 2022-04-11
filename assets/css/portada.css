@@ -1,0 +1,35 @@
+.portada{
+    background-image: url(../img/portada-hongo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 50vh;
+}
+
+.portada__contenido{
+    padding: 13rem 0 0 8rem;
+
+}
+
+.portada__titulo{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.portada__descripcion{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+.portada__boton{
+    background: #2A7AE4;
+    color: #ffffff;
+    padding: 1.25rem 2rem;
+    transition: all .2s;
+}
+.portada__boton:active{
+    background: #619ff1;
+}
