@@ -1,0 +1,61 @@
+.contacto{
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 8rem;
+    margin-top: 3rem;
+    
+}
+
+.contacto__alura{
+    padding: .5rem 0;
+}
+
+.contacto__geek{
+    padding: .5rem 0;
+}
+
+.contacto__item{
+    margin-bottom: 1.5rem;
+}
+
+.contacto__link{
+    color: #464646;
+    font-weight: 500;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__form-titulo{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.contacto__form-input{
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+    padding: 0.5rem;
+    width: 33vw;
+}
+.contacto__form-textarea{
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    height: 4rem;
+    margin-bottom: .5rem;
+    outline: none;
+    padding: 0.5rem;
+    width: 33vw;
+}
+
+.contacto__form-boton{
+    background: #2A7AE4;
+    color: #ffffff;
+    padding: 1.25rem 1rem;
+    transition: all .2s;
+    width: 10vw;
+}
