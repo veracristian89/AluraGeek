@@ -64,3 +64,27 @@ button{
 .footer__descripcion, .footer__fecha{
     font-weight: 500;
 }
+
+/*tablet responsive*/
+
+@media screen and (max-width: 1024px) {
+    .seccion__top, .seccion__contenido{
+        margin: .5rem 1.5rem;
+    }
+    .caja:nth-child(n+5){
+        display: none;
+    }
+   
+}
+
+/*movile responsive*/
+
+@media screen and (max-width: 600px) {
+    .seccion__top, .seccion__contenido{
+        margin: .5rem .5rem;
+    }
+    .caja:nth-child(n+3){
+        display: none;
+    }
+
+}

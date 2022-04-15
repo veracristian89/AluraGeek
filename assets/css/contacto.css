@@ -6,7 +6,11 @@
     margin-top: 3rem;
     
 }
-
+.contacto__contenido{
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+}
 .contacto__alura{
     padding: .5rem 0;
 }
@@ -65,4 +69,27 @@
 .contacto__form-boton:hover{
     cursor: pointer;
     background: #619ff1;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacto{
+        padding: 3rem 1.5rem;
+        margin-top: 3rem;
+    }
+    .contacto__contenido{
+        flex-direction: column;
+    }
+    .contacto__form-input{
+        width: 50vw;
+    }
+    .contacto__form-textarea{
+        width: 50vw;
+    }
+    .contacto__form-boton{
+        background: #2A7AE4;
+        color: #ffffff;
+        padding: 1.25rem 1rem;
+        transition: all .2s;
+        width: 20vw;
+    }
 }
