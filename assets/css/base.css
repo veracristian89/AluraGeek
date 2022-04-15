@@ -74,6 +74,9 @@ button{
     .caja:nth-child(n+5){
         display: none;
     }
+    .seccion__top-titulo{
+        font-size: 1.5rem;
+    }
    
 }
 

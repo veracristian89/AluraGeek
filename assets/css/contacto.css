@@ -86,10 +86,30 @@
         width: 50vw;
     }
     .contacto__form-boton{
-        background: #2A7AE4;
-        color: #ffffff;
-        padding: 1.25rem 1rem;
-        transition: all .2s;
         width: 20vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacto{
+        flex-direction: column;
+    }
+    .contacto__contenido{
+        text-align: center;
+        width: 90vw;
+    }
+    .contacto__logo{
+        margin-bottom: 1rem;
+    }
+    .contacto__form-input{
+        width: 90vw;
+    }
+    .contacto__form-textarea{
+        width: 90vw;
+    }
+    .contacto__form-boton{
+        padding: 1rem 0;
+        font-size: 0.9rem;
+        width: 40vw;
     }
 }

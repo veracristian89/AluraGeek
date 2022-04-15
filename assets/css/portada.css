@@ -44,3 +44,23 @@
     }
    
 }
+
+@media screen and (max-width: 600px) {
+    .portada{
+        height: 34vh;
+    }
+    .portada__titulo{
+        font-size: 1.75rem;
+    }
+    .portada__descripcion{
+        font-size: .9rem;
+        font-weight: 500;
+    }
+    .portada__contenido{
+        padding: 14vh 0 0 1rem;
+    }
+    .portada__boton{
+        font-size: .75rem;
+        padding: 1rem 1.5rem;
+    }
+}
