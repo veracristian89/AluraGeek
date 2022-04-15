@@ -23,7 +23,9 @@
     color: #464646;
     font-weight: 500;
 }
-
+.contacto__link:hover{
+    text-decoration: underline;
+}
 .contacto__form{
     display: flex;
     flex-direction: column;
@@ -58,4 +60,9 @@
     padding: 1.25rem 1rem;
     transition: all .2s;
     width: 10vw;
+}
+
+.contacto__form-boton:hover{
+    cursor: pointer;
+    background: #619ff1;
 }

@@ -51,3 +51,16 @@ button{
     font-size: 0.9rem;
     font-weight: 700;
 }
+.caja__link:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background: #fff;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.footer__descripcion, .footer__fecha{
+    font-weight: 500;
+}
