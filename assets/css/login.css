@@ -1,0 +1,41 @@
+.login{
+    background: #F5F5F5;
+    margin: 0 auto;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__titulo{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 5rem 0 2rem 0;
+    text-align: center;
+}
+
+.login__mail, .login__pass{
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    height: 3.5rem;
+    margin: 0 37.5vw 1rem 37.5vw;
+    outline: none;
+    padding: 0.5rem;
+    width: 25vw;
+}
+
+.login__button{
+    background: #2A7AE4;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 37.5vw 1rem 37.5vw;
+    padding: 1rem;
+    transition: background .2s;
+    width: 25vw;
+}
+
+.login__button:hover{
+    cursor: pointer;
+    background: #619ff1;
+}
+
