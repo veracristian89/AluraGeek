@@ -39,6 +39,14 @@
     background: #619ff1;
 }
 
+@media screen and (max-width: 1024px) {
+    .login__mail, .login__pass{
+        margin: .5rem 20vw;
+        width: 60vw;
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     .login__mail, .login__pass{
         
