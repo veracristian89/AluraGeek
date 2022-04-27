@@ -28,6 +28,8 @@
     padding: .35rem .35rem;
     background: #F5F5F5;
     border-radius: 1.5rem;
+    height: 2.5rem;
+    margin-top: 0.35rem;
 }
 
 .header__search-input{
@@ -77,7 +79,7 @@
     
     }
     .header__logo{
-        transform: scale(0.75);
+        width: 10rem;
         margin-right: .5rem;
     }
     
@@ -88,7 +90,7 @@
         padding: 1rem .5rem;
     }
     .header__logo{
-        transform: scale(0.75);
+        width: 8rem;
         margin-right: .5rem;
     }
     .header__search{
