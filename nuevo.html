@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="icon" href="assets/img/Vector.png">
+        <title>AluraGeek</title>
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f2fcc4e02c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/contacto.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+        <link rel="stylesheet" href="assets/css/nuevo.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            
+            <div class="header__contenido">
+                <div class="header__logo-contenedor">
+                    <a href="index.html">
+                        <img src="./assets/img/Logo.png" alt="" class="header__logo">
+                    </a>
+                </div>
+                
+                <div class="header__search">
+                    <input type="text" class="header__search-input" placeholder="¿Qué deseas buscar?">
+                    <button class="header__search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            
+            <form class="header__form" action="login.html">
+                <button class="header__login-button">Login</button>
+            </form>
+
+        </header>
+
+        <section class="nuevo-producto">
+            <div class="nuevo-producto__imagen">
+                <div class="nuevo-producto__arrastrar-imagen">
+                    <i class="fa-solid fa-image"></i>
+                    <p>Arrastre para agregar una imagen para el producto</p>
+                </div>
+                <p class="nuevo-producto__p">O</p>
+                <input class="nuevo-producto__input" type="file" name="" id="">
+            </div>
+            <input type="text" class="nuevo-producto__nombre" placeholder="Nombre del producto">
+            <input type="text" class="nuevo-producto__precio" placeholder="Precio del produtco">
+            <input type="text" class="nuevo-producto__descripcion" placeholder="Descripción del producto">
+        </section>
+
+        <section class="contacto">
+
+            <div class="contacto__contenido">
+                <div class="contacto__logo">
+                    <img class="contacto__vector" src="assets/img/Vector.png" alt="logo">
+                    <img class="contacto__alura" src="assets/img/alura.png" alt="logo alura">
+                    <img class="contacto__geek" src="assets/img/geek.png" alt="logo geek">
+                </div>
+                <div class="contacto__contenedor-lista">
+                    <ul class="contacto__lista">
+                        <li class="contacto__item"><a class="contacto__link" href="#">Quienes somos</a></li>
+                        <li class="contacto__item"><a class="contacto__link" href="#">Política de privacidad</a></li>
+                        <li class="contacto__item"><a class="contacto__link" href="#">Programa de fidelidad</a></li>
+                        <li class="contacto__item"><a class="contacto__link" href="#">Nuestras Tiendas</a></li>
+                        <li class="contacto__item"><a class="contacto__link" href="#">Quiero ser franquiciado</a></li>
+                        <li class="contacto__item"><a class="contacto__link" href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <form class="contacto__form">
+                <h2 class="contacto__form-titulo">Hable con nosotros</h2>
+                <input class="contacto__form-input" type="text" name="" id="" placeholder="Nombre">
+                <textarea class="contacto__form-textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                <button class="contacto__form-boton">Enviar mensaje</button>
+            </form>
+
+        </section>
+
+        <footer class="footer">
+            <p class="footer__descripcion">Desarrollado por Cristian Vera ©</p>
+            <p class="footer__fecha">2022</p>
+        </footer>
+
+    </body>
+</html>
