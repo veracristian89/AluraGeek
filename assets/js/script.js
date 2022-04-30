@@ -6,6 +6,8 @@ function validandoMail(){
 function validandoClave(){
     const claveInput = document.querySelector("[data-clave-input]")
 }
+
+
 entrarBtn.addEventListener("click", function(event){
     event.preventDefault();
     alert("click en boton entrar");
