@@ -4,12 +4,12 @@ const textoInput = document.querySelector("[data-contacto-texto]");
 
 
 function ValidandoNombre(){
-    const nombreInput = document.querySelector("[data-contacto-nombre]");
-    nombre = nombreInput.value
+    let nombreInput = document.querySelector("[data-contacto-nombre]");
     const exp = /^[a-zA-Z\s]+$/g;
-    if(!exp.test(nombre)){
+    if(!exp.test(nombreInput.value)){
         alert("ingrese un nombre valido")
     }
+    nombreInput.value = ""
 
 }
 
