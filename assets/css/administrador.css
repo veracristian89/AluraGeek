@@ -1,0 +1,20 @@
+.administrador__encabezado{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 9rem;
+}
+.administrador__encabezado-titulo{
+    padding-top: .75rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.administrador__encabezado-btn{
+    background: #2A7AE4;
+    color: #fff;
+    padding: 1rem;
+    transition: all .2s;
+}
+.administrador__encabezado-btn:hover{
+    cursor: pointer;
+    background: #619ff1;
+}

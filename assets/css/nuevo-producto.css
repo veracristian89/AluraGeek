@@ -45,9 +45,11 @@ body{
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
     padding: 1rem;
+    transition: all .2s;
 }
 .nuevo-producto__boton-agregar:hover{
     cursor: pointer;
+    background: #ccdff8;
 }
 .nuevo-producto__input{
     display: none;
