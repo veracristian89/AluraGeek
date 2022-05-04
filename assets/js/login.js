@@ -24,6 +24,6 @@ entrarBtn.addEventListener("click", (event) => {
     if(camposValidos() && (mailInput.value != mailAdmin || claveInput.value != passAdmin)){
         alert("mail o clave incorrectos")
     } else if((mailInput.value == mailAdmin || claveInput.value == passAdmin)) {
-        window.location.href ="../administrador.html"
+        window.location.href ="/administrador.html"
     }
 });
