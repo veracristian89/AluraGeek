@@ -1,4 +1,4 @@
-const loginBtn = document.querySelector("[data-entrar-boton]");
+const entrarBtn = document.querySelector("[data-entrar-boton]");
 const claveInput = document.querySelector("[data-clave-input]");
 
 function validandoMail() {
@@ -13,7 +13,7 @@ function validandoMail() {
 
 }
 
-loginBtn.addEventListener("click", (event) => {
+entrarBtn.addEventListener("click", (event) => {
     event.preventDefault();
     validandoMail();
 
