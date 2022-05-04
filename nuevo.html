@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/contacto.css">
         <link rel="stylesheet" href="assets/css/login.css">
-        <link rel="stylesheet" href="assets/css/nuevo.css">
+        <link rel="stylesheet" href="assets/css/nuevo-producto.css">
     </head>
 
     <body>
@@ -43,17 +43,22 @@
         </header>
 
         <section class="nuevo-producto">
+
             <div class="nuevo-producto__imagen">
                 <div class="nuevo-producto__arrastrar-imagen">
                     <i class="fa-solid fa-image"></i>
                     <p>Arrastre para agregar una imagen para el producto</p>
                 </div>
                 <p class="nuevo-producto__p">O</p>
+                <label for="inputFile">
+                    <div class="nuevo-producto__boton-agregar">Busque en su computador</div>
+                </label>
                 <input class="nuevo-producto__input" type="file" name="" id="inputFile">
             </div>
             <input type="text" class="nuevo-producto__nombre" placeholder="Nombre del producto">
             <input type="text" class="nuevo-producto__precio" placeholder="Precio del produtco">
             <input type="text" class="nuevo-producto__descripcion" placeholder="Descripción del producto">
+            
         </section>
 
         <section class="contacto">
