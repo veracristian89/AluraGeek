@@ -33,3 +33,29 @@ button{
     cursor: pointer;
     background: #619ff1;
 }
+
+.administrador__contenido{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 8rem;
+    flex-wrap: wrap;
+}
+
+.borrar{
+    text-shadow: #7d7d7d 1px 1px 10px;
+    color: #fff;
+    position: absolute;
+    margin: 1rem;
+}
+.borrar:hover{
+    cursor: pointer;
+}
+.editar{
+    text-shadow: #7d7d7d 1px 1px 10px;
+    color: #fff;
+    position: absolute;
+    margin: 1rem 2.5rem;
+}
+.editar:hover{
+    cursor: pointer;
+}
