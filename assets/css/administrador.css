@@ -59,3 +59,25 @@ button{
 .editar:hover{
     cursor: pointer;
 }
+
+/*tablet responsive*/
+
+@media screen and (max-width: 1024px) {
+    .administrador__contenido, .administrador__encabezado{
+        margin: 1rem 1rem;
+    }
+}
+
+/*movile responsive*/
+
+@media screen and (max-width: 600px) {
+    .administrador__contenido, .administrador__encabezado{
+        margin: 1rem .5rem;
+    }
+    .administrador__encabezado-titulo{
+        font-size: 1.15rem;
+    }
+    .administrador__encabezado-btn{
+        font-size: .75rem;
+    }
+}
