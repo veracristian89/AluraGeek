@@ -1,3 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #E5E5E5;
+}
+
+button{
+    background: none;
+    border: none;
+}
 .administrador__encabezado{
     display: flex;
     justify-content: space-between;
