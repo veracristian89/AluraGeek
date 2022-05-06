@@ -16,7 +16,7 @@ button{
 .administrador__encabezado{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 9rem;
+    margin: 2rem 9rem 0 9rem;
 }
 .administrador__encabezado-titulo{
     padding-top: .75rem;
@@ -50,6 +50,9 @@ button{
 .borrar:hover{
     cursor: pointer;
 }
+.tarjeta__img-contenido{
+    margin: 2rem 0 1rem 0;
+}
 .editar{
     text-shadow: #7d7d7d 1px 1px 10px;
     color: #fff;
@@ -58,6 +61,10 @@ button{
 }
 .editar:hover{
     cursor: pointer;
+}
+.tarjeta__precio{
+    font-weight: 700;
+    margin: .5rem 0;
 }
 
 /*tablet responsive*/
