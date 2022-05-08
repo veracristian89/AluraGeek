@@ -45,7 +45,7 @@
         <section class="nuevo-producto">
 
             <div class="nuevo-producto__imagen">
-                <div class="nuevo-producto__arrastrar-imagen">
+                <div class="nuevo-producto__arrastrar-imagen" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" data-arrastrar-imagen>
                     <i class="fa-solid fa-image"></i>
                     <p>Arrastre para agregar una imagen para el producto</p>
                 </div>
@@ -58,6 +58,7 @@
             <input type="text" class="nuevo-producto__nombre" placeholder="Nombre del producto">
             <input type="text" class="nuevo-producto__precio" placeholder="Precio del produtco">
             <input type="text" class="nuevo-producto__descripcion" placeholder="Descripción del producto">
+            <button class="nuevo-producto__btn">Agregar</button>
             
         </section>
 
@@ -94,6 +95,7 @@
             <p class="footer__descripcion">Desarrollado por Cristian Vera ©</p>
             <p class="footer__fecha">2022</p>
         </footer>
+        <script src="/assets/js/nuevo.js"></script>
         <script src="./assets/js/contacto.js"></script>
     </body>
 </html>

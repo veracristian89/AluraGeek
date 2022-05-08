@@ -65,6 +65,19 @@ body{
     margin: .5rem 30vw;
 } 
 
+.nuevo-producto__btn{
+    width: 20vw;
+    margin: .5rem 40vw;
+    padding: 1rem 0;
+    color: #fff;
+    background: #2A7AE4;
+    transition: all 0.2s;
+}
+.nuevo-producto__btn:hover{
+    cursor: pointer;
+    background-color: #619ff1;
+}
+
 /*tablet responsive*/
 
 @media screen and (max-width: 1024px) {
