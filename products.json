@@ -3,42 +3,48 @@
         {   
             "categoria": "Star Wars",
             "titulo": "Taza Stormtrooper",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/taza-stormtrooper.jpg",
             "id": 1,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Star Wars",
             "titulo": "Darth Vader Lego",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/vader-lego.jpg", 
             "id": 2,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Star Wars",
             "titulo": "Maestro Yoda",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/yoda.jpg", 
             "id": 3,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Star Wars",
             "titulo": "Traje Stormptrooper",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/stormtrooper.png", 
             "id": 4,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Star Wars",
             "titulo": "Grogu",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/grogu.jpg", 
             "id": 5,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Star Wars",
             "titulo": "Traje Kylo Ren",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/star-wars/kylo-ren.jpg", 
             "id": 6,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
@@ -46,78 +52,97 @@
         {
             "categoria": "Consolas",
             "titulo": "Control Xbox",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/xbox-control.jpg", 
             "id": 7,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Consolas",
             "titulo": "Play Station 5",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/ps5.jpg", 
             "id": 8,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Consolas",
             "titulo": "Nintendo NES",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/nes.jpg", 
             "id": 9,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Consolas",
             "titulo": "Control Nintendo Switch",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/switch-control.jpg", 
             "id": 10,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Consolas",
             "titulo": "Xbox",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/xbox.jpg", 
             "id": 11,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Consolas",
             "titulo": "Game Boy Color",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/consolas/game-boy.jpg", 
             "id": 12,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Diversos",
             "titulo": "Camisa Atari",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/camisa-atari.jpg", 
             "id": 13,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Diversos",
             "titulo": "Camisa SNES",
-            "precio": "60,00", 
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/camisa-snes.jpg", 
             "id": 14,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Diversos",
-            "titulo": "Camisa SNES",
-            "precio": "60,00", 
+            "titulo": "Sonic",
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/sonic.jpg", 
             "id": 15,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Diversos",
-            "titulo": "Sonic",
-            "precio": "60,00", 
+            "titulo": "Reloj Retro",
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/reloj-retro.jpg", 
             "id": 16,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         },
         {
             "categoria": "Diversos",
-            "titulo": "Reloj Retro",
-            "precio": "60,00", 
+            "titulo": "Play Station 5 VR",
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/PS5-RV.jpg", 
             "id": 17,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
+        },
+        {
+            "categoria": "Diversos",
+            "titulo": "Pikachu",
+            "precio": "60,00",
+            "imagen": "assets/img/diversos/pikachu.jpg", 
+            "id": 18,
             "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, eos. Impedit quos quia vero incidunt maxime quasi explicabo quis dolore quibusdam repellat voluptatem nemo, labore libero cum laudantium, reprehenderit sed."
         }
     ]
