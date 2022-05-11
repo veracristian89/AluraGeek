@@ -1,5 +1,5 @@
 export const listaProductos = () => {
-    return fetch('http://localhost:3000/producto').then(response => {
+    return fetch('https://veracristian89.github.io/AluraGeekDB/db/products.json').then(response => {
         return response.json();
     })
 }
