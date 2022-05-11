@@ -12,6 +12,7 @@ const tarjetaProducto = (imagen, titulo, precio, id) => {
     <p class="caja__precio">$ ${precio}</p>
     <a href="producto.html" class="caja__link" id="${id}">Ver producto</a>`;
     tarjeta.innerHTML = contenidoDiv;
+    tarjeta.classList.add("caja")
     return tarjeta;
     
 }
