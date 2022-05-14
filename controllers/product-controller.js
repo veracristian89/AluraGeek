@@ -6,12 +6,10 @@ const id = url.searchParams.get("id");
 const category = url.searchParams.get("category");
 console.log(category);
 
-const producto = (id) => {
-    //para seccion producto
+const pantallaProducto = (id) => {
     const productSection = document.querySelector(".producto");
     const divImagen = document.createElement("div");
     const divContenido =document.createElement("div");
-    //para seccion similares
     const similares = document.querySelector("#similares")
     listaProductos().then((data) => {
         data.forEach(product => {
@@ -26,14 +24,12 @@ const producto = (id) => {
                 productSection.appendChild(divContenido);
             }
             if(product.categoria == category && product.id != id){
-                 
                 similares.appendChild(tarjetaProducto(product.imagen, product.titulo, product.precio, product.id, product.categoria));
-                
             }
         });
     })
 }
-producto(id);
+pantallaProducto(id);
 
   
 
