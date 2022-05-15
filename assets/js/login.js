@@ -1,3 +1,5 @@
+import { datosUsuario } from "../../services/user-services.js";
+
 const entrarBtn = document.querySelector("[data-entrar-boton]");
 const claveInput = document.querySelector("[data-clave-input]");
 const mailInput = document.querySelector("[data-mail-input]");
@@ -16,14 +18,16 @@ function camposValidos() {
 
 }
 
-entrarBtn.addEventListener("click", (event) => {
-    event.preventDefault();
-    const mailAdmin = "admin@email.com"
-    const passAdmin = "admin123"
 
-    if(camposValidos() && (mailInput.value != mailAdmin || claveInput.value != passAdmin)){
-        alert("mail o clave incorrectos")
-    } else if((mailInput.value == mailAdmin || claveInput.value == passAdmin)) {
-        window.location ="administrador.html"
-    }
+entrarBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    datosUsuario().then(data => {
+        if (camposValidos() && (data.email != mailInput.value || data.pass != claveInput.value)){
+            alert("datos incorrectos")
+        }else if(data.email == mailInput.value || data.pass == claveInput.value){
+            window.location ="administrador.html"
+        }
+    })
+    
 });

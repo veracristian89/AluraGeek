@@ -16,6 +16,8 @@ export const tarjetaProducto = (imagen, titulo, precio, id, categoria) => {
     return tarjeta;
 }
 
+
+
 listaProductos().then((data) => {
     data.forEach(producto => {
         if(producto.categoria == "Star Wars"){
