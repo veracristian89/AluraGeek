@@ -18,7 +18,12 @@ function camposValidos() {
 
 }
 
-
+claveInput.addEventListener("keypress", (e)=>{
+    if (e.key==="Enter"){
+        entrarBtn.click();
+        e.preventDefault();
+    }
+})
 entrarBtn.addEventListener("click", (e) => {
     e.preventDefault();
 

@@ -9,5 +9,4 @@ administradorBtn.addEventListener("click", (event)=>{
 salirBtn.addEventListener("click", (event)=>{
     event.preventDefault();
     window.location = "index.html";
-
 })
