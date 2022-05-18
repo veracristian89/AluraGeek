@@ -73,6 +73,17 @@
     cursor: pointer;
 }
 
+.header__logout-button{
+    color: #e42a2a;
+    border: 1px solid #e42a2a;
+    padding: .75rem 4rem;
+    transition: all 0.2s;
+}
+.header__logout-button:hover{
+    cursor: pointer;
+    background: #ffeaea;
+}
+
 @media screen and (max-width: 1024px) {
     .header{
         padding: 1rem 1.5rem;
