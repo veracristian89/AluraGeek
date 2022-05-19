@@ -7,7 +7,7 @@
 }
 
 .portada__contenido{
-    padding: 13rem 0 0 8rem;
+    padding: 15vh 0 8rem;
 
 }
 
@@ -39,8 +39,7 @@
 
 @media screen and (max-width: 1024px) {
     .portada__contenido{
-        padding: 15rem 0 0 1.5rem;
-    
+        padding: 15vh 0 0 1.5rem;
     }
    
 }
