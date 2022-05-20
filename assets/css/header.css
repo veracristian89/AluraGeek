@@ -73,6 +73,21 @@
     cursor: pointer;
 }
 
+.header__search-button-responsive{
+    display: none;
+    color: #A2A2A2;
+    padding: 0.35rem 0.35rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    transition: all .2s;
+}
+.header__search-button-responsive:hover{
+    color: #000000;
+    background-color: #d8d7d7;
+}
+
 .header__logout-button{
     color: #e42a2a;
     border: 1px solid #e42a2a;
@@ -106,6 +121,9 @@
     }
     .header__search{
         display: none;
+    }
+    .header__search-button-responsive{
+        display: block;
     }
     .header__login-button{
         padding: .35rem 2.5rem;
