@@ -4,6 +4,7 @@ const starWars = document.querySelector('.star-wars');
 const consolas = document.querySelector('.consolas');
 const diversos = document.querySelector('.diversos');
 
+
 export const tarjetaProducto = (imagen, titulo, precio, id, categoria) => {
     const tarjeta = document.createElement('div');
     const contenidoDiv = 

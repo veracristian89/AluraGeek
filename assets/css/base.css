@@ -1,6 +1,17 @@
 *{
     box-sizing: border-box;
 }
+.search{
+    display: flex;
+    margin: 2rem 8rem;
+    flex-wrap: wrap;
+}
+.search > .caja{
+    padding-right: 2rem;
+}
+.oculto{
+    display: none;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -71,7 +82,7 @@ button{
 /*tablet responsive*/
 
 @media screen and (max-width: 1024px) {
-    .seccion__top, .seccion__contenido{
+    .seccion__top, .seccion__contenido, .search{
         margin: .5rem 1.5rem;
     }
     .caja:nth-child(n+5){
@@ -86,7 +97,7 @@ button{
 /*movile responsive*/
 
 @media screen and (max-width: 600px) {
-    .seccion__top, .seccion__contenido{
+    .seccion__top, .seccion__contenido, .search{
         margin: .5rem .5rem;
     }
     .caja:nth-child(n+3){
