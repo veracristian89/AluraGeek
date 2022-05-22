@@ -26,3 +26,27 @@ const handleDrop = (e) => {
     const files = dt.files;
     console.log(files);
 }
+
+// validando form
+
+const nombreProd = document.querySelector("[data-input-nombreProd]");
+const precioProd = document.querySelector("[data-input-precioProd]");
+const descripcionProd = document.querySelector("[data-input-descripcionProd]");
+const botonAgregar = document.querySelector("[data-button-agregar]");
+
+const validandoCampos = () => {
+    if(nombreProd.value == "") {
+        alert("el nombre del producto no puede estar vacio");
+    }
+    if(precioProd.value == "") {
+        alert("el precio del producto no puede estar vacio");
+    }
+    if(descripcionProd.value == "") {
+        alert("la descripcion no puede estar vacia");
+    }
+};
+
+botonAgregar.addEventListener("click", (e) => {
+    e.preventDefault();
+    validandoCampos();
+});
