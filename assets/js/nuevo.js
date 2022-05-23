@@ -37,11 +37,9 @@ const botonAgregar = document.querySelector("[data-button-agregar]");
 const validandoCampos = () => {
     if(nombreProd.value == "") {
         alert("el nombre del producto no puede estar vacio");
-    }
-    if(precioProd.value == "") {
+    }else if(precioProd.value == "") {
         alert("el precio del producto no puede estar vacio");
-    }
-    if(descripcionProd.value == "") {
+    }else if(descripcionProd.value == "") {
         alert("la descripcion no puede estar vacia");
     }
 };
