@@ -29,7 +29,7 @@ searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
     searchSection.innerHTML ="";
     listaProductos().then(data => data.forEach(producto => {
-        if((producto.titulo).toLowerCase().includes((searchInput.value).toLowerCase())){
+        if((producto.titulo).toLowerCase().includes((searchInput.value).toLowerCase()) || (producto.categoria).toLowerCase().includes((searchInput.value).toLowerCase())){
             tituloBusqueda(searchInput.value)
             main.classList.add("oculto");
             searchSection.appendChild(tarjetaProducto(producto.imagen, producto.titulo, producto.precio, producto.id, producto.categoria));
