@@ -31,38 +31,53 @@
                 </div>
                 
                 <div class="header__search">
-                    <input type="text" class="header__search-input" placeholder="¿Qué deseas buscar?">
-                    <button class="header__search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="search" class="header__search-input" placeholder="¿Qué deseas buscar?" data-search-input>
+                    <button class="header__search-button"><i class="fa-solid fa-magnifying-glass" data-search-btn></i></button>
                 </div>
             </div>
 
-                <button class="header__login-button" data-login-btn>Login</button>
+            <button class="header__login-button" data-login-btn>Login</button>
+            <button class="header__search-button-responsive"><i class="fa-solid fa-magnifying-glass" data-search-btn></i></button>
 
         </header>
 
-        <section class="producto">
+        <div class="titulo__busqueda">
+
+        </div>
+
+        <section class="search">
+            
+        </section>
+
+        
+
+        <main>
+            
+            <section class="producto">
     
-        </section>
+            </section>
 
-        <section class="seccion">
+            <section class="seccion">
 
-            <div class="seccion__top">
-                <h2 class="seccion__top-titulo">Productos similares</h2>
-                
-                <div class="seccion__ver">
-                    <a class="seccion__ver-link" href="#">Ver todo</a>
-                    <img class="seccion__ver-img" src="assets/img/arrow.png" alt="flecha">
-                </div> 
-            </div>
-
-            <div class="seccion__contenido" id="similares">
-
-            </div>
-
-        </section>
+                <div class="seccion__top">
+                    <h2 class="seccion__top-titulo">Productos similares</h2>
+                    
+                    <div class="seccion__ver">
+                        <a class="seccion__ver-link" href="#">Ver todo</a>
+                        <img class="seccion__ver-img" src="assets/img/arrow.png" alt="flecha">
+                    </div> 
+                </div>
+    
+                <div class="seccion__contenido" id="similares">
+    
+                </div>
+    
+            </section>
+            
+        </main>
 
         <section class="contacto">
-
+            
             <div class="contacto__contenido">
                 <div class="contacto__logo">
                     <img class="contacto__vector" src="assets/img/Vector.png" alt="logo">
@@ -84,18 +99,24 @@
             <form class="contacto__form">
                 <h2 class="contacto__form-titulo">Hable con nosotros</h2>
                 <input class="contacto__form-input" type="text" name="" id="" placeholder="Nombre" data-contacto-nombre>
-                <textarea class="contacto__form-textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" data-contacto-texto></textarea>
+                <textarea class="contacto__form-textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"
+                    data-contacto-texto></textarea>
                 <button class="contacto__form-boton" data-contacto-btn>Enviar mensaje</button>
             </form>
-
+            
         </section>
+        
+        
         <footer class="footer">
             <p class="footer__descripcion">Desarrollado por Cristian Vera ©</p>
             <p class="footer__fecha">2022</p>
         </footer>
+
+        <script type="module" src="./assets/js/search.js"></script>
         <script type="module" src="./assets/js/contacto.js"></script>
         <script type="module" src="./assets/js/index.js"></script>
         <script type="module" src="./controllers/product-controller.js"></script>
+        <script type="module" src="./controllers/products-controller.js"></script>
     </body>
     
 </html>

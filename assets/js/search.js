@@ -27,6 +27,7 @@ searchInput.addEventListener("keypress", (e)=>{
 
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
+    searchSection.innerHTML ="";
     listaProductos().then(data => data.forEach(producto => {
         if((producto.titulo).toLowerCase().includes((searchInput.value).toLowerCase())){
             tituloBusqueda(searchInput.value)
