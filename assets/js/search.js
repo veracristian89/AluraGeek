@@ -13,13 +13,21 @@ searchInput.addEventListener("keypress", (e)=>{
     }
 })
 
+function tituloBusqueda(busqueda) {
+    const titulo=document.createElement("h3")
+    searchSection.appendChild(titulo)
+    titulo.innerHTML = `Resultados para la busqueda: ${busqueda}`
+}
+
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
     
     listaProductos().then(data => data.forEach(producto => {
         if((producto.titulo).toLowerCase().includes((searchInput.value).toLowerCase())){
+            tituloBusqueda(searchInput.value)
             main.classList.add("oculto");
             searchSection.appendChild(tarjetaProducto(producto.imagen, producto.titulo, producto.precio, producto.id, producto.categoria));
+            
         }
         
     }))
