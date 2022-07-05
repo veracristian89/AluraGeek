@@ -79,6 +79,12 @@ button{
     font-weight: 500;
 }
 
+.titulo__busqueda{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 /*tablet responsive*/
 
 @media screen and (max-width: 1024px) {

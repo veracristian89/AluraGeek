@@ -4,7 +4,19 @@ import { tarjetaProducto } from "../../controllers/products-controller.js";
 const searchInput = document.querySelector("[data-search-input]");
 const searchBtn = document.querySelector("[data-search-btn]");
 const searchSection = document.querySelector(".search");
-const main = document.querySelector("main")
+const main = document.querySelector("main");
+const tituloBusquedaContenedor = document.querySelector(".titulo__busqueda");
+const titulo=document.createElement("h3")
+
+function tituloBusqueda(busqueda) {
+    
+    if(titulo.innerHTML == "" || !titulo.innerHTML.includes(busqueda)){ 
+        titulo.innerHTML = "";
+        titulo.classList.add("titulo__busqueda");
+        tituloBusquedaContenedor.appendChild(titulo);
+        titulo.innerHTML = `Resultados para la busqueda: ${busqueda}`;
+    } 
+}
 
 searchInput.addEventListener("keypress", (e)=>{
     if (e.key==="Enter"){
@@ -13,21 +25,13 @@ searchInput.addEventListener("keypress", (e)=>{
     }
 })
 
-function tituloBusqueda(busqueda) {
-    const titulo=document.createElement("h3")
-    searchSection.appendChild(titulo)
-    titulo.innerHTML = `Resultados para la busqueda: ${busqueda}`
-}
-
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    
     listaProductos().then(data => data.forEach(producto => {
         if((producto.titulo).toLowerCase().includes((searchInput.value).toLowerCase())){
             tituloBusqueda(searchInput.value)
             main.classList.add("oculto");
             searchSection.appendChild(tarjetaProducto(producto.imagen, producto.titulo, producto.precio, producto.id, producto.categoria));
-            
         }
         
     }))
