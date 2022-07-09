@@ -18,6 +18,12 @@ const initApp = () => {
 
     dropArea.addEventListener("drop", handleDrop);
 }
+const salirBtn = document.querySelector("[data-logout-btn]")
+
+salirBtn.addEventListener("click", (event)=>{
+    event.preventDefault();
+    window.location = "index.html";
+})
 
 document.addEventListener("DOMContentLoaded", initApp);
 
