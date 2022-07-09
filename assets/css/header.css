@@ -122,6 +122,9 @@
     .header__search{
         display: none;
     }
+    .mostrar{
+        display: block;
+    }
     .header__search-button-responsive{
         display: block;
     }

@@ -3,10 +3,12 @@ import { tarjetaProducto } from "../../controllers/products-controller.js";
 
 const searchInput = document.querySelector("[data-search-input]");
 const searchBtn = document.querySelector("[data-search-btn]");
+const searchBtnRespon = document.querySelector("[data-search-btn-respon]")
 const searchSection = document.querySelector(".search");
 const main = document.querySelector("main");
 const tituloBusquedaContenedor = document.querySelector(".titulo__busqueda");
 const titulo=document.createElement("h3")
+const loginBtn = document.querySelector("[data-login-btn]");
 
 function tituloBusqueda(busqueda) {
     
@@ -36,6 +38,9 @@ searchBtn.addEventListener("click", (e) => {
         }
         
     }))
+});
 
-
+searchBtnRespon.addEventListener("click", (e)=>{
+    e.preventDefault();
+    loginBtn.classList.add("oculto");
 });
