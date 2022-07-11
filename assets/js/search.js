@@ -40,7 +40,15 @@ searchBtn.addEventListener("click", (e) => {
     }))
 });
 
+const searchInputRespon = document.querySelector(".header__search-input-responsive")
+
 searchBtnRespon.addEventListener("click", (e)=>{
     e.preventDefault();
-    loginBtn.classList.add("oculto");
+    
+    if(loginBtn.classList.contains("oculto") && searchInput.classList.contains("mostrar")){
+        searchBtn.click();
+    } else {
+        loginBtn.classList.add("oculto");
+        searchInputRespon.classList.add("mostrar")
+    }
 });

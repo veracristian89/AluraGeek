@@ -98,6 +98,19 @@
     cursor: pointer;
     background: #ffeaea;
 }
+.header__search-responsive{
+    display: flex;
+}
+.header__search-input-responsive{
+    display: none;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    background: #F5F5F5;
+}
+.mostrar{
+    display: block;
+}
 
 @media screen and (max-width: 1024px) {
     .header{
