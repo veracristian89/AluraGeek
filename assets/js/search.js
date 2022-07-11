@@ -30,7 +30,7 @@ const searchInputRespon = document.querySelector(".header__search-input-responsi
 
 searchInputRespon.addEventListener("keypress", (e)=>{
     if (e.key==="Enter"){
-        searchBtn.click();
+        searchBtnRespon.click();
         e.preventDefault();
     }
 })
