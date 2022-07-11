@@ -26,6 +26,14 @@ searchInput.addEventListener("keypress", (e)=>{
         e.preventDefault();
     }
 })
+const searchInputRespon = document.querySelector(".header__search-input-responsive")
+
+searchInputRespon.addEventListener("keypress", (e)=>{
+    if (e.key==="Enter"){
+        searchBtn.click();
+        e.preventDefault();
+    }
+})
 
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -40,15 +48,23 @@ searchBtn.addEventListener("click", (e) => {
     }))
 });
 
-const searchInputRespon = document.querySelector(".header__search-input-responsive")
 
 searchBtnRespon.addEventListener("click", (e)=>{
     e.preventDefault();
     
-    if(loginBtn.classList.contains("oculto") && searchInput.classList.contains("mostrar")){
-        searchBtn.click();
+    if(loginBtn.classList.contains("oculto") && searchInputRespon.classList.contains("mostrar")){
+        searchSection.innerHTML ="";
+        listaProductos().then(data => data.forEach(producto => {
+        if((producto.titulo).toLowerCase().includes((searchInputRespon.value).toLowerCase()) || (producto.categoria).toLowerCase().includes((searchInputRespon.value).toLowerCase())){
+            tituloBusqueda(searchInputRespon.value)
+            main.classList.add("oculto");
+            searchSection.appendChild(tarjetaProducto(producto.imagen, producto.titulo, producto.precio, producto.id, producto.categoria));
+        }
+        
+    }))
     } else {
         loginBtn.classList.add("oculto");
         searchInputRespon.classList.add("mostrar")
     }
+    
 });
