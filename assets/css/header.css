@@ -99,7 +99,7 @@
     background: #ffeaea;
 }
 .header__search-responsive{
-    display: flex;
+    display: none;
 }
 .header__search-input-responsive{
     display: none;
@@ -140,6 +140,9 @@
     }
     .header__search-button-responsive{
         display: block;
+    }
+    .header__search-responsive{
+        display: flex;
     }
     .header__login-button{
         padding: .35rem 2.5rem;
