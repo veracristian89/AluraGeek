@@ -26,6 +26,7 @@ searchInput.addEventListener("keypress", (e)=>{
         e.preventDefault();
     }
 })
+
 const searchInputRespon = document.querySelector(".header__search-input-responsive")
 
 searchInputRespon.addEventListener("keypress", (e)=>{
